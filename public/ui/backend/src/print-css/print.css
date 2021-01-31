@@ -1,0 +1,10 @@
+body.enlarged {
+    min-height: 1000px;
+}
+
+@media print {
+
+	.no-print ,.dataTables_length,.dataTables_filter{
+	 display: none!important;
+	}
+}

@@ -1,0 +1,41 @@
+
+table#itemsTable td:not(:last-child){
+   min-width: 200px;
+   max-width: 300px !important;
+}
+
+table#itemsTable td:nth-child(2){
+    padding-left: 50px !important;
+ }
+
+
+table#itemsTable th{
+    text-align: center;
+ }
+
+table#myTbl td {
+    width: 8% !important;
+}
+
+table#itemsTable td input {
+    min-width: 200px !important;
+    max-width: 300px !important;
+}
+
+table#itemsTable td .select2-container {
+    /* width: 100% !important; */
+    min-width: 100px;
+    max-width: 300px !important;
+}
+
+
+
+
+
+table#myTbl{
+    border-collapse:separate;
+    border-spacing:12px 20px;
+}​​​​​​​​​​​​​
+
+
+

@@ -1,0 +1,66 @@
+
+    :focus {
+        outline: none;
+    }
+
+    .content2 {
+        width: 100%;
+        position: relative;
+    }
+    
+    .input {
+        width: 100%;
+        border: 0;
+        padding: 10px 10px;
+        border-bottom: 1px solid #929fba;
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    
+    .input ~ .border {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+    }
+    
+    .input:focus ~ .border {
+        width: 100%;
+        transition: 0.5s;
+    }
+
+ 
+
+    /* select2  */
+/* 
+    #poTable>tbody tr td:nth-child(2) .select2-container {
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+        vertical-align: middle;
+        max-width: 320px;
+        min-width: 100px;
+    }
+
+    #poTable>tbody tr td:nth-child(2){
+        width: 350px;
+        min-width: 100px;
+    } */
+
+    @media print {
+
+        #substore-requisitions-table thead tr{
+            color: #000 !important;
+            font-weight: bold !important;
+        }
+
+        .input {
+            margin: 2px 0px !important;
+        }
+
+       
+    }
+
+

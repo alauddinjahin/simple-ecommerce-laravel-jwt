@@ -1,0 +1,106 @@
+.logo-box {
+    height: 70px;
+    width: 240px;
+    float: left;
+    background-color: #010c46 !important;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.navbar-custom {
+    background-color: #fafafa !important;
+    padding: 0 10px 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 100;
+    -webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.navbar-custom .app-search .form-control {
+    border: none;
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 0;
+    color: #fff;
+    background-color: #dee2e6c9 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px 0 0 30px;
+}
+
+.navbar-custom .button-menu-mobile {
+    border: none;
+    color: #000a26 !important;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    width: 60px;
+    background-color: #fafafa;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-custom .app-search .btn {
+    background-color: rgb(228, 231, 234) !important;
+    border-color: transparent;
+    color: rgba(13, 0, 0, 0.5);
+    border-radius: 0 30px 30px 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-custom .topnav-menu .nav-link {
+    color: rgba(6, 41, 96, 0.75) !important;
+    line-height: 70px;
+    text-align: center;
+}
+
+.right-bar .rightbar-title {
+    background-color: #1f2d60 !important;
+    padding: 25.5px 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.left-side-menu {
+    width: 240px;
+    background: #081437;
+    bottom: 0;
+    padding: 20px 0;
+    position: fixed;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    top: 70px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    z-index: 1;
+}
+
+#sidebar-menu > ul > li > a {
+    color: rgb(144, 164, 135) !important;
+    display: block;
+    padding: 13px 20px;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+} 
+
+
+
+#sidebar-menu > ul > li > a.active {
+    color: #bfad1e !important;
+    background-color: #1d2b79;
+}
+
+
+
+
+
+.nav-second-level li > a.active, .nav-thrid-level li > a.active {
+    color: #bfad1e;
+}
